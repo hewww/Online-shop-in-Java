@@ -1,7 +1,10 @@
 package SpringShop.model;
 
+import org.springframework.beans.factory.annotation.Value;
+
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
+
 
 @Entity
 @Table(name = "USERS")
@@ -35,6 +38,7 @@ public class User {
         return userId;
     }
 
+
     public String getUsername() {
         return username;
     }
@@ -57,6 +61,8 @@ public class User {
     public Address getAddress() {
         return address;
     }
+
+
 
     public void setAddress(Address address) {
         this.address = address;
@@ -81,6 +87,7 @@ public class User {
     public void setUserRole(UserRole userRole) {
         this.userRole = userRole;
     }
+
 }
 
 

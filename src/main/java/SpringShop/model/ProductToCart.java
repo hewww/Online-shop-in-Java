@@ -11,6 +11,7 @@ public class ProductToCart {
     private Integer productToCartId;
     private Product product;
     private Integer quantity;
+    private Cart cart;
 
     public ProductToCart() {
     }
@@ -22,7 +23,7 @@ public class ProductToCart {
     }
 
     @Id
-    @GeneratedValue(strategy = GenerationType.TABLE)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @NotNull
     public Integer getProductToCartId() {
         return productToCartId;
@@ -36,8 +37,17 @@ public class ProductToCart {
     }
 
     @NotNull
-        public Integer getQuantity() {
+    public Integer getQuantity() {
             return quantity;
+    }
+
+    @ManyToOne
+    public Cart getCart() {
+        return cart;
+    }
+
+    public void setCart(Cart cart) {
+        this.cart = cart;
     }
 
     public void setProductToCartId(Integer productToCartId) {
@@ -51,6 +61,8 @@ public class ProductToCart {
     public void setQuantity(Integer quantity) {
         this.quantity = quantity;
     }
+
+
 
 
 }

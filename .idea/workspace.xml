@@ -1,25 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/test/java/SpringShop/repository/OrderRepoTestSuite.java" line="30" mnemonic="2" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="dd6f9357-3449-4539-b476-722f313fad09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/SpringShop/DbManagerTestSuite.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/SpringShop.DbManagerTestSuite.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/test/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-SpringShop.DbManagerTestSuite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SpringShop/model/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SpringShop/model/ProductToCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SpringShop/model/ProductsCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SpringShop/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SpringShop/model/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SpringShop/repository/AddressRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SpringShop/repository/ProductRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SpringShop/repository/ProductToCartRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SpringShop/repository/AddressRepoTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SpringShop/repository/ProductRepoTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SpringShop/repository/ProductToCartRepoTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SpringShop/repository/UserRepoTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SpringShop/model/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SpringShop/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SpringShop/repository/CartRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SpringShop/repository/OrderRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SpringShop/repository/CartRepoTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SpringShop/repository/OrderRepoTestSuite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -30,37 +21,32 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.5.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.5.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/46b7ce2e-1c6e-4789-aaf9-0d89837b7803.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/46b7ce2e-1c6e-4789-aaf9-0d89837b7803.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/SpringShop/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/SpringShop/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/SpringShop/OnlineShopApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/SpringShop/OnlineShopApplicationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/SpringShop/UserDaoTestSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/SpringShop/DbManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/SpringShop/DbManagerTestSuite.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/myFirstShop-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/myFirstShop-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/SpringShop.OnlineShopApplicationTests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/SpringShop.UserDaoTestSuite.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/SpringShop.DbManagerTestSuite.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/SpringShop.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/SpringShop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-SpringShop.OnlineShopApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-SpringShop.UserDaoTestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/SpringShop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/test/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-SpringShop.DbManagerTestSuite.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/SpringShop/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/SpringShop/ProductDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/SpringShop/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/SpringShop/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/SpringShop/ProductDaoTestSuite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/SpringShop/UserDaoTestSuite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SpringShop/DbManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringShop/DbManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SpringShop/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringShop/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SpringShop/ProductDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SpringShop/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SpringShop/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringShop/repository/UserRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/SpringShop/DbManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/SpringShop/DbManagerTestSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SpringShop/model/ProductToCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringShop/model/ProductToCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SpringShop/model/ProductsCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringShop/model/ProductsCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SpringShop/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringShop/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SpringShop/repository/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringShop/repository/UserRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpringShop/ProductDaoTestSuite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpringShop/UserDaoTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SpringShop/DbManagerTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SpringShop/repository/UserRepoTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpringShop/repository/UserRepoTestSuite.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -92,6 +78,12 @@
         <item name="remoteMySQL" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="remoteMySQL" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="PZGdGF3JAe: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
     </expand>
     <select />
   </component>
@@ -99,17 +91,23 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="DockManager">
-    <window id="2">
+    <window id="1">
       <content type="file-editors">
         <state>
           <leaf>
             <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/test/java/SpringShop/repository/AddressRepoTestSuite.java">
+              <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/model/Cart.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="262">
-                    <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+                  <state relative-caret-position="459">
+                    <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
                     <folding>
                       <element signature="imports" expanded="true" />
+                      <element signature="e#337#338#0" expanded="true" />
+                      <element signature="e#390#391#0" expanded="true" />
+                      <element signature="e#686#687#0" expanded="true" />
+                      <element signature="e#721#722#0" expanded="true" />
+                      <element signature="e#974#975#0" expanded="true" />
+                      <element signature="e#1022#1023#0" expanded="true" />
                     </folding>
                   </state>
                 </provider>
@@ -145,13 +143,27 @@
       </state>
     </system>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="myFirstShop" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SpringShop/repository/ProductRepoTestSuite.java">
+        <entry file="das://46b7ce2e-1c6e-4789-aaf9-0d89837b7803/schema/PZGdGF3JAe/table/address">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="c60995c8-fab5-4c75-a957-bd0221f05321">
+              <filtering>
+                <filter text="" />
+              </filtering>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SpringShop/OnlineShopApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="36" column="52" lean-forward="true" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
+            <state relative-caret-position="136">
+              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,61 +172,85 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/model/ProductToCart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SpringShop/repository/UserRepoTestSuite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+        <entry file="das://46b7ce2e-1c6e-4789-aaf9-0d89837b7803/schema/PZGdGF3JAe/table/cart">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="c60995c8-fab5-4c75-a957-bd0221f05321">
+              <filtering>
+                <filter text="" />
+              </filtering>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SpringShop/repository/ProductToCartRepoTestSuite.java">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="58" column="45" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/repository/ProductToCartRepo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+        <entry file="das://46b7ce2e-1c6e-4789-aaf9-0d89837b7803/schema/PZGdGF3JAe/table/cart_products_list">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="c60995c8-fab5-4c75-a957-bd0221f05321">
+              <filtering>
+                <filter text="" />
+              </filtering>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/repository/UserRepo.java">
+        <entry file="das://46b7ce2e-1c6e-4789-aaf9-0d89837b7803/schema/PZGdGF3JAe/table/hibernate_sequence">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="c60995c8-fab5-4c75-a957-bd0221f05321">
+              <filtering>
+                <filter text="" />
+              </filtering>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://46b7ce2e-1c6e-4789-aaf9-0d89837b7803/schema/PZGdGF3JAe/table/order">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="c60995c8-fab5-4c75-a957-bd0221f05321">
+              <filtering>
+                <filter text="" />
+              </filtering>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://46b7ce2e-1c6e-4789-aaf9-0d89837b7803/schema/PZGdGF3JAe/table/products_to_cart">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="c60995c8-fab5-4c75-a957-bd0221f05321">
+              <filtering>
+                <filter text="" />
+              </filtering>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://46b7ce2e-1c6e-4789-aaf9-0d89837b7803/schema/PZGdGF3JAe/table/users">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="c60995c8-fab5-4c75-a957-bd0221f05321">
+              <filtering>
+                <filter text="" />
+              </filtering>
             </state>
           </provider>
         </entry>
@@ -225,8 +261,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -243,16 +279,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gitignore.txt" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/SpringShop/DbManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SpringShop/ShoppingCartDao.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SpringShop/ShoppingCartTestSuite.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SpringShop/CustomerOrder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SpringShop/CustomerOrderDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SpringShop/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SpringShop/OrderedProductPK.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SpringShop/OrderedProduct.java" />
         <option value="$PROJECT_DIR$/src/main/java/SpringShop/Product.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/SpringShop/ShoppingCart.java" />
@@ -281,27 +307,37 @@
         <option value="$PROJECT_DIR$/src/main/java/SpringShop/dao/ProductToCartRepo.java" />
         <option value="$PROJECT_DIR$/src/test/java/SpringShop/repository/CartToItemRepoTestSuite.java" />
         <option value="$PROJECT_DIR$/src/test/java/SpringShop/repository/ProductDaoTestSuite.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SpringShop/model/ProductsCategory.java" />
         <option value="$PROJECT_DIR$/src/main/java/SpringShop/repository/ProductRepo.java" />
         <option value="$PROJECT_DIR$/src/test/java/SpringShop/repository/ProductRepoTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/SpringShop/repository/AddressRepo.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/46b7ce2e-1c6e-4789-aaf9-0d89837b7803/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/SpringShop/repository/ProductToCartRepo.java" />
         <option value="$PROJECT_DIR$/src/main/java/SpringShop/repository/EntityManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/SpringShop/repository/AddressRepoTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/SpringShop/model/Address.java" />
         <option value="$PROJECT_DIR$/src/main/java/SpringShop/model/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SpringShop/model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SpringShop/model/ProductToCart.java" />
         <option value="$PROJECT_DIR$/src/test/java/SpringShop/repository/ProductToCartRepoTestSuite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringShop/repository/CartRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringShop/model/ProductsCategory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringShop/repository/UserRepo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SpringShop/repository/UserRepoTestSuite.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/java/SpringShop/repository/CartRepoTestSuite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringShop/repository/OrderRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringShop/model/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringShop/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringShop/model/ProductToCart.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/46b7ce2e-1c6e-4789-aaf9-0d89837b7803/console.sql" />
+        <option value="$PROJECT_DIR$/src/test/java/SpringShop/repository/OrderRepoTestSuite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringShop/model/Cart.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="304" />
-    <option name="y" value="65" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="240" />
+    <option name="y" value="130" />
+    <option name="width" value="1440" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -317,85 +353,6 @@
             <path>
               <item name="myFirstShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="myFirstShop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="myFirstShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myFirstShop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myFirstShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myFirstShop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myFirstShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myFirstShop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="myFirstShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myFirstShop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myFirstShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myFirstShop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringShop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myFirstShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myFirstShop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringShop" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myFirstShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myFirstShop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringShop" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myFirstShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myFirstShop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="myFirstShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myFirstShop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myFirstShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myFirstShop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringShop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myFirstShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myFirstShop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringShop" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -447,8 +404,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProductToCartRepoTestSuite">
-    <configuration name="AddressRepoTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.OnlineShopApplicationTests">
+    <configuration name="CartRepoTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myFirstShop.test" />
       <extension name="coverage">
         <pattern>
@@ -457,13 +414,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="SpringShop.repository" />
-      <option name="MAIN_CLASS_NAME" value="SpringShop.repository.AddressRepoTestSuite" />
+      <option name="MAIN_CLASS_NAME" value="SpringShop.repository.CartRepoTestSuite" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OnlineShopApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OnlineShopApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myFirstShop.test" />
       <extension name="coverage">
         <pattern>
@@ -473,13 +430,43 @@
       </extension>
       <option name="PACKAGE_NAME" value="SpringShop" />
       <option name="MAIN_CLASS_NAME" value="SpringShop.OnlineShopApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderRepoTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myFirstShop.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SpringShop.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SpringShop.repository" />
+      <option name="MAIN_CLASS_NAME" value="SpringShop.repository.OrderRepoTestSuite" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderRepoTestSuite.testOrderRepo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myFirstShop.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SpringShop.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SpringShop.repository" />
+      <option name="MAIN_CLASS_NAME" value="SpringShop.repository.OrderRepoTestSuite" />
+      <option name="METHOD_NAME" value="testOrderRepo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductRepoTestSuite (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductRepoTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myFirstShop.test" />
       <extension name="coverage">
         <pattern>
@@ -494,37 +481,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductToCartRepoTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myFirstShop.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SpringShop.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SpringShop.repository" />
-      <option name="MAIN_CLASS_NAME" value="SpringShop.repository.ProductToCartRepoTestSuite" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductToCartRepoTestSuite.testProductToCardRepo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myFirstShop.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SpringShop.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SpringShop.repository" />
-      <option name="MAIN_CLASS_NAME" value="SpringShop.repository.ProductToCartRepoTestSuite" />
-      <option name="METHOD_NAME" value="testProductToCardRepo" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OnlineShopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="myFirstShop.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="SpringShop.OnlineShopApplication" />
@@ -534,11 +490,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProductToCartRepoTestSuite" />
-        <item itemvalue="JUnit.AddressRepoTestSuite" />
-        <item itemvalue="JUnit.ProductToCartRepoTestSuite.testProductToCardRepo" />
-        <item itemvalue="JUnit.ProductRepoTestSuite (1)" />
-        <item itemvalue="JUnit.OnlineShopApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.OnlineShopApplicationTests" />
+        <item itemvalue="JUnit.OrderRepoTestSuite" />
+        <item itemvalue="JUnit.OrderRepoTestSuite.testOrderRepo" />
+        <item itemvalue="JUnit.ProductRepoTestSuite" />
+        <item itemvalue="JUnit.CartRepoTestSuite" />
       </list>
     </recent_temporary>
   </component>
@@ -557,44 +513,46 @@
       <workItem from="1579100625837" duration="24710000" />
       <workItem from="1579448796848" duration="16019000" />
       <workItem from="1579518404003" duration="10135000" />
-      <workItem from="1579602690577" duration="26588000" />
+      <workItem from="1579602690577" duration="26895000" />
+      <workItem from="1579707290354" duration="14652000" />
+      <workItem from="1580224629111" duration="24565000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OnlineShopApplicationTests - 2020.01.22 at 00h 30m 49s.xml">
+    <history-entry file="OrderRepoTestSuite_testOrderRepo - 2020.01.28 at 23h 30m 28s.xml">
+      <configuration name="OrderRepoTestSuite.testOrderRepo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderRepoTestSuite_testOrderRepo - 2020.01.28 at 23h 32m 44s.xml">
+      <configuration name="OrderRepoTestSuite.testOrderRepo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderRepoTestSuite_testOrderRepo - 2020.01.28 at 23h 36m 35s.xml">
+      <configuration name="OrderRepoTestSuite.testOrderRepo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OnlineShopApplicationTests - 2020.01.28 at 23h 37m 49s.xml">
       <configuration name="OnlineShopApplicationTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OnlineShopApplicationTests_contextLoads - 2020.01.22 at 00h 32m 07s.xml">
-      <configuration name="OnlineShopApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="CartRepoTestSuite - 2020.01.28 at 23h 38m 55s.xml">
+      <configuration name="CartRepoTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductRepoTestSuite_(1) - 2020.01.22 at 00h 32m 25s.xml">
-      <configuration name="ProductRepoTestSuite (1)" configurationId="JUnit" />
+    <history-entry file="ProductRepoTestSuite - 2020.01.28 at 23h 41m 09s.xml">
+      <configuration name="ProductRepoTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductRepoTestSuite_(1) - 2020.01.22 at 00h 34m 19s.xml">
-      <configuration name="ProductRepoTestSuite (1)" configurationId="JUnit" />
+    <history-entry file="OrderRepoTestSuite - 2020.01.28 at 23h 47m 12s.xml">
+      <configuration name="OrderRepoTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductToCartRepoTestSuite - 2020.01.22 at 00h 34m 39s.xml">
-      <configuration name="ProductToCartRepoTestSuite" configurationId="JUnit" />
+    <history-entry file="OrderRepoTestSuite_testOrderRepo - 2020.01.28 at 23h 51m 07s.xml">
+      <configuration name="OrderRepoTestSuite.testOrderRepo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductToCartRepoTestSuite_testProductToCardRepo - 2020.01.22 at 00h 37m 41s.xml">
-      <configuration name="ProductToCartRepoTestSuite.testProductToCardRepo" configurationId="JUnit" />
+    <history-entry file="OrderRepoTestSuite - 2020.01.29 at 00h 02m 51s.xml">
+      <configuration name="OrderRepoTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddressRepoTestSuite - 2020.01.22 at 00h 40m 17s.xml">
-      <configuration name="AddressRepoTestSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductToCartRepoTestSuite - 2020.01.22 at 00h 41m 19s.xml">
-      <configuration name="ProductToCartRepoTestSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductToCartRepoTestSuite - 2020.01.22 at 00h 46m 14s.xml">
-      <configuration name="ProductToCartRepoTestSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductToCartRepoTestSuite - 2020.01.22 at 00h 46m 35s.xml">
-      <configuration name="ProductToCartRepoTestSuite" configurationId="JUnit" />
+    <history-entry file="OnlineShopApplicationTests - 2020.01.29 at 00h 20m 42s.xml">
+      <configuration name="OnlineShopApplicationTests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90162000" />
+    <option name="totallyTimeSpent" value="129686000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -607,9 +565,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23027718" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26972282" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -620,13 +577,53 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31419286" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32394367" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32827735" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32922733" />
-      <window_info anchor="bottom" id="Spring" order="8" weight="0.32922733" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32827735" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32827735" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.32827735" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.32719395" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.3294621" />
+      <window_info anchor="right" id="Database" order="7" sideWeight="0.49921012" visible="true" weight="0.2771855" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info anchor="right" id="Coverage" order="11" sideWeight="0.5007899" side_tool="true" visible="true" weight="0.24200426" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26972282" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" weight="0.3294621" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32394367" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32827735" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32827735" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32827735" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32827735" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -642,12 +639,12 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Gradle" order="6" weight="0.3294621" />
-      <window_info anchor="right" id="Database" order="7" sideWeight="0.49921012" visible="true" weight="0.24200426" />
+      <window_info anchor="right" id="Database" order="7" sideWeight="0.49921012" visible="true" weight="0.2771855" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info anchor="right" id="Coverage" order="11" sideWeight="0.5007899" side_tool="true" visible="true" weight="0.24200426" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -674,175 +671,126 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="12" selection-start-line="4" selection-end-line="4" selection-end-column="17" />
+    <entry file="das://46b7ce2e-1c6e-4789-aaf9-0d89837b7803/schema/vAgUs8Nj3T/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="15eba709-c0c7-4dac-8d87-e8417faf91ea">
+          <filtering>
+            <filter text="" />
+          </filtering>
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/5.2.2.RELEASE/3626ffbac33c85dd0a4a0fe1482500f6caccf5ce/spring-orm-5.2.2.RELEASE-sources.jar!/org/springframework/orm/jpa/vendor/SpringHibernateJpaPersistenceProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+        <state relative-caret-position="392">
+          <caret line="57" column="39" lean-forward="true" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.2.2.RELEASE/f00ed1b4c867366979ed716dcc4f762f3b20714a/spring-boot-autoconfigure-2.2.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-192">
+        <state relative-caret-position="199">
           <caret line="131" column="50" selection-start-line="131" selection-start-column="50" selection-end-line="131" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/CustomerOrderDao.java" />
-    <entry file="das://46b7ce2e-1c6e-4789-aaf9-0d89837b7803/schema/vAgUs8Nj3T/table/products" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/OrderedProductPK.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/OrderedProduct.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/CustomerOrder.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/DbManager.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SpringShop/repository/ProductRepoTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="51" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#869#870#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/OnlineShopApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="119">
+          <caret line="18" selection-start-line="18" selection-end-line="24" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/repository/ShoppingCartDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="47" selection-end-line="18" />
+    <entry file="das://46b7ce2e-1c6e-4789-aaf9-0d89837b7803/schema/vAgUs8Nj3T/table/address">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="c60995c8-fab5-4c75-a957-bd0221f05321">
+          <filtering>
+            <filter text="" />
+          </filtering>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/repository/ShoppingCartItemDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="74" selection-end-line="15" />
+    <entry file="das://46b7ce2e-1c6e-4789-aaf9-0d89837b7803/schema/vAgUs8Nj3T/table/cart">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="c60995c8-fab5-4c75-a957-bd0221f05321">
+          <filtering>
+            <filter text="" />
+          </filtering>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/model/ProductsStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="36" lean-forward="true" selection-end-line="41" />
+    <entry file="das://46b7ce2e-1c6e-4789-aaf9-0d89837b7803/schema/vAgUs8Nj3T/table/hibernate_sequence">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="c60995c8-fab5-4c75-a957-bd0221f05321">
+          <filtering>
+            <filter text="" />
+          </filtering>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/model/ShoppingCartItem.java">
+    <entry file="das://46b7ce2e-1c6e-4789-aaf9-0d89837b7803/schema/vAgUs8Nj3T/table/product">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="c60995c8-fab5-4c75-a957-bd0221f05321">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://46b7ce2e-1c6e-4789-aaf9-0d89837b7803/schema/vAgUs8Nj3T/table/products_to_cart">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="c60995c8-fab5-4c75-a957-bd0221f05321">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/model/ProductsCategory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-end-line="75" />
+        <state relative-caret-position="136">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SpringShop/repository/ProductToCartRepoTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/model/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SpringShop/repository/UserRepoTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SpringShop/DbManagerTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/2.2.3.RELEASE/820700adddb9d2f126b466f99917167f68e151e9/spring-data-commons-2.2.3.RELEASE-sources.jar!/org/springframework/data/mapping/PropertyPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="93" column="18" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://46b7ce2e-1c6e-4789-aaf9-0d89837b7803/schema/vAgUs8Nj3T/table/shopping_cart">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="865e7874-d7a0-4feb-8089-8925e8e12a7e">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://46b7ce2e-1c6e-4789-aaf9-0d89837b7803/schema/vAgUs8Nj3T/table/shopping_cart_item">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="865e7874-d7a0-4feb-8089-8925e8e12a7e">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/model/UserRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SpringShop/repository/ShoppingCartDaoTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="30" lean-forward="true" selection-start-column="2" selection-end-line="85" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/model/ShoppingCart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="28" column="34" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SpringShop/OnlineShopApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://46b7ce2e-1c6e-4789-aaf9-0d89837b7803/schema/vAgUs8Nj3T/table/product_to_cart">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="865e7874-d7a0-4feb-8089-8925e8e12a7e">
-          <filtering>
-            <filter text="" />
-          </filtering>
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -856,27 +804,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/46b7ce2e-1c6e-4789-aaf9-0d89837b7803/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/model/ProductsCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/repository/EntityManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/repository/ProductRepo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+        <state relative-caret-position="102">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/repository/ProductToCartRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/repository/UserRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/repository/OrderRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/repository/CartRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SpringShop/repository/CartRepoTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -885,8 +857,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+        <state relative-caret-position="374">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -895,18 +867,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/model/Address.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+        <state relative-caret-position="221">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/model/Product.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SpringShop/repository/AddressRepoTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+        <state relative-caret-position="255">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -915,125 +887,146 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/model/ProductToCart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+        <state relative-caret-position="442">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SpringShop/repository/ProductRepoTestSuite.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/46b7ce2e-1c6e-4789-aaf9-0d89837b7803/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/model/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="36" column="52" lean-forward="true" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
+        <state relative-caret-position="457">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://46b7ce2e-1c6e-4789-aaf9-0d89837b7803/schema/vAgUs8Nj3T/table/product">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SpringShop/repository/OrderRepoTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1802">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://46b7ce2e-1c6e-4789-aaf9-0d89837b7803/schema/PZGdGF3JAe/table/product">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="865e7874-d7a0-4feb-8089-8925e8e12a7e">
+        <state projectRestartId="c60995c8-fab5-4c75-a957-bd0221f05321">
           <filtering>
             <filter text="" />
           </filtering>
         </state>
       </provider>
     </entry>
-    <entry file="das://46b7ce2e-1c6e-4789-aaf9-0d89837b7803/schema/vAgUs8Nj3T/table/address">
+    <entry file="das://46b7ce2e-1c6e-4789-aaf9-0d89837b7803/schema/PZGdGF3JAe/table/order">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="865e7874-d7a0-4feb-8089-8925e8e12a7e">
+        <state projectRestartId="c60995c8-fab5-4c75-a957-bd0221f05321">
           <filtering>
             <filter text="" />
           </filtering>
         </state>
       </provider>
     </entry>
-    <entry file="das://46b7ce2e-1c6e-4789-aaf9-0d89837b7803/schema/vAgUs8Nj3T/table/users">
+    <entry file="das://46b7ce2e-1c6e-4789-aaf9-0d89837b7803/schema/PZGdGF3JAe/table/hibernate_sequence">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="865e7874-d7a0-4feb-8089-8925e8e12a7e">
+        <state projectRestartId="c60995c8-fab5-4c75-a957-bd0221f05321">
           <filtering>
             <filter text="" />
           </filtering>
         </state>
       </provider>
     </entry>
-    <entry file="das://46b7ce2e-1c6e-4789-aaf9-0d89837b7803/schema/vAgUs8Nj3T/table/products_to_cart">
+    <entry file="das://46b7ce2e-1c6e-4789-aaf9-0d89837b7803/schema/PZGdGF3JAe/table/cart_products_list">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="865e7874-d7a0-4feb-8089-8925e8e12a7e">
+        <state projectRestartId="c60995c8-fab5-4c75-a957-bd0221f05321">
           <filtering>
             <filter text="" />
           </filtering>
         </state>
       </provider>
     </entry>
-    <entry file="das://46b7ce2e-1c6e-4789-aaf9-0d89837b7803/schema/vAgUs8Nj3T/table/hibernate_sequence">
+    <entry file="das://46b7ce2e-1c6e-4789-aaf9-0d89837b7803/schema/PZGdGF3JAe/table/users">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="865e7874-d7a0-4feb-8089-8925e8e12a7e">
+        <state projectRestartId="c60995c8-fab5-4c75-a957-bd0221f05321">
           <filtering>
             <filter text="" />
           </filtering>
         </state>
       </provider>
     </entry>
-    <entry file="das://46b7ce2e-1c6e-4789-aaf9-0d89837b7803/schema/vAgUs8Nj3T/table/hibernate_sequences">
+    <entry file="das://46b7ce2e-1c6e-4789-aaf9-0d89837b7803/schema/PZGdGF3JAe/table/products_to_cart">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="865e7874-d7a0-4feb-8089-8925e8e12a7e">
+        <state projectRestartId="c60995c8-fab5-4c75-a957-bd0221f05321">
           <filtering>
             <filter text="" />
           </filtering>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SpringShop/repository/AddressRepoTestSuite.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+        <state relative-caret-position="153">
+          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SpringShop/OnlineShopApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/repository/ProductToCartRepo.java">
+    <entry file="das://46b7ce2e-1c6e-4789-aaf9-0d89837b7803/schema/PZGdGF3JAe/table/address">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="c60995c8-fab5-4c75-a957-bd0221f05321">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/model/Cart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="459">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/repository/UserRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+    <entry file="das://46b7ce2e-1c6e-4789-aaf9-0d89837b7803/schema/PZGdGF3JAe/table/cart">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="c60995c8-fab5-4c75-a957-bd0221f05321">
+          <filtering>
+            <filter text="" />
+          </filtering>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SpringShop/repository/UserRepoTestSuite.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SpringShop/repository/ProductToCartRepoTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="58" column="45" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
         </state>
       </provider>
     </entry>

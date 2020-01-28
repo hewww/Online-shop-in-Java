@@ -20,13 +20,13 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">5</div>
+<div class="counter">6</div>
 <p>tests</p>
 </div>
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">0</div>
+<div class="counter">6</div>
 <p>failures</p>
 </div>
 </td>
@@ -38,7 +38,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">5.945s</div>
+<div class="counter">0.002s</div>
 <p>duration</p>
 </div>
 </td>
@@ -47,8 +47,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox success" id="successRate">
-<div class="percent">100%</div>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
 <p>successful</p>
 </div>
 </td>
@@ -58,13 +58,45 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Packages</a>
+<a href="#tab0">Failed tests</a>
 </li>
 <li>
-<a href="#tab1">Classes</a>
+<a href="#tab1">Packages</a>
+</li>
+<li>
+<a href="#tab2">Classes</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<ul class="linkList">
+<li>
+<a href="classes/SpringShop.repository.AddressRepoTestSuite.html">AddressRepoTestSuite</a>.
+<a href="classes/SpringShop.repository.AddressRepoTestSuite.html#testAddressRepoTesting">testAddressRepoTesting</a>
+</li>
+<li>
+<a href="classes/SpringShop.repository.CartRepoTestSuite.html">CartRepoTestSuite</a>.
+<a href="classes/SpringShop.repository.CartRepoTestSuite.html#testCartRepo">testCartRepo</a>
+</li>
+<li>
+<a href="classes/SpringShop.repository.OrderRepoTestSuite.html">OrderRepoTestSuite</a>.
+<a href="classes/SpringShop.repository.OrderRepoTestSuite.html#testOrderRepo">testOrderRepo</a>
+</li>
+<li>
+<a href="classes/SpringShop.repository.ProductRepoTestSuite.html">ProductRepoTestSuite</a>.
+<a href="classes/SpringShop.repository.ProductRepoTestSuite.html#testProductDaoTesting">testProductDaoTesting</a>
+</li>
+<li>
+<a href="classes/SpringShop.repository.ProductToCartRepoTestSuite.html">ProductToCartRepoTestSuite</a>.
+<a href="classes/SpringShop.repository.ProductToCartRepoTestSuite.html#testProductToCartRepo">testProductToCartRepo</a>
+</li>
+<li>
+<a href="classes/SpringShop.repository.UserRepoTestSuite.html">UserRepoTestSuite</a>.
+<a href="classes/SpringShop.repository.UserRepoTestSuite.html#testUserRepoTesting">testUserRepoTesting</a>
+</li>
+</ul>
+</div>
+<div id="tab1" class="tab">
 <h2>Packages</h2>
 <table>
 <thead>
@@ -79,29 +111,19 @@
 </thead>
 <tbody>
 <tr>
-<td class="success">
-<a href="packages/SpringShop.html">SpringShop</a>
-</td>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>0.819s</td>
-<td class="success">100%</td>
-</tr>
-<tr>
-<td class="success">
+<td class="failures">
 <a href="packages/SpringShop.repository.html">SpringShop.repository</a>
 </td>
-<td>4</td>
+<td>6</td>
+<td>6</td>
 <td>0</td>
-<td>0</td>
-<td>5.126s</td>
-<td class="success">100%</td>
+<td>0.002s</td>
+<td class="failures">0%</td>
 </tr>
 </tbody>
 </table>
 </div>
-<div id="tab1" class="tab">
+<div id="tab2" class="tab">
 <h2>Classes</h2>
 <table>
 <thead>
@@ -116,54 +138,64 @@
 </thead>
 <tbody>
 <tr>
-<td class="success">
-<a href="classes/SpringShop.DbManagerTestSuite.html">SpringShop.DbManagerTestSuite</a>
-</td>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>0.819s</td>
-<td class="success">100%</td>
-</tr>
-<tr>
-<td class="success">
+<td class="failures">
 <a href="classes/SpringShop.repository.AddressRepoTestSuite.html">SpringShop.repository.AddressRepoTestSuite</a>
 </td>
 <td>1</td>
+<td>1</td>
 <td>0</td>
-<td>0</td>
-<td>1.972s</td>
-<td class="success">100%</td>
+<td>0s</td>
+<td class="failures">0%</td>
 </tr>
 <tr>
-<td class="success">
+<td class="failures">
+<a href="classes/SpringShop.repository.CartRepoTestSuite.html">SpringShop.repository.CartRepoTestSuite</a>
+</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0s</td>
+<td class="failures">0%</td>
+</tr>
+<tr>
+<td class="failures">
+<a href="classes/SpringShop.repository.OrderRepoTestSuite.html">SpringShop.repository.OrderRepoTestSuite</a>
+</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0.002s</td>
+<td class="failures">0%</td>
+</tr>
+<tr>
+<td class="failures">
 <a href="classes/SpringShop.repository.ProductRepoTestSuite.html">SpringShop.repository.ProductRepoTestSuite</a>
 </td>
 <td>1</td>
+<td>1</td>
 <td>0</td>
-<td>0</td>
-<td>1.001s</td>
-<td class="success">100%</td>
+<td>0s</td>
+<td class="failures">0%</td>
 </tr>
 <tr>
-<td class="success">
+<td class="failures">
 <a href="classes/SpringShop.repository.ProductToCartRepoTestSuite.html">SpringShop.repository.ProductToCartRepoTestSuite</a>
 </td>
 <td>1</td>
+<td>1</td>
 <td>0</td>
-<td>0</td>
-<td>1.209s</td>
-<td class="success">100%</td>
+<td>0s</td>
+<td class="failures">0%</td>
 </tr>
 <tr>
-<td class="success">
+<td class="failures">
 <a href="classes/SpringShop.repository.UserRepoTestSuite.html">SpringShop.repository.UserRepoTestSuite</a>
 </td>
 <td>1</td>
+<td>1</td>
 <td>0</td>
-<td>0</td>
-<td>0.944s</td>
-<td class="success">100%</td>
+<td>0s</td>
+<td class="failures">0%</td>
 </tr>
 </tbody>
 </table>
@@ -176,7 +208,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.5.1</a> at 2020-01-21 23:57:23</p>
+<a href="http://www.gradle.org">Gradle 5.5.1</a> at 2020-01-28 19:33:40</p>
 </div>
 </div>
 </body>

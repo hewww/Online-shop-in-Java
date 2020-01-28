@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SpringShop.DbManagerTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-21T22:57:05" hostname="DESKTOP-G19834U" time="0.819">
-  <properties/>
-  <testcase name="testConnect" classname="SpringShop.DbManagerTestSuite" time="0.819"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
