@@ -1,9 +1,12 @@
 package SpringShop.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.beans.factory.annotation.Value;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
+import java.util.ArrayList;
+import java.util.List;
 
 
 @Entity
@@ -12,23 +15,24 @@ public class User {
     private Integer userId;
     private String username;
     private String password;
+    private String mail;
     private boolean isActivated;
     private UserRole userRole;
     private Address address;
+    private List<Order> orders = new ArrayList<Order>();
 
     public User() {
         isActivated=false;
         userRole=UserRole.USER;
-        address=null;
     }
 
-    public User(Integer userId, String username, String password, boolean isActivated, UserRole userRole, Address address) {
+    public User(Integer userId, String username, String password, String mail, boolean isActivated, UserRole userRole) {
         this.userId = userId;
         this.username = username;
         this.password = password;
+        this.mail = mail;
         this.isActivated = isActivated;
         this.userRole = userRole;
-        this.address = address;
     }
 
     @Id
@@ -39,10 +43,12 @@ public class User {
     }
 
 
+    @NotNull
     public String getUsername() {
         return username;
     }
 
+    @NotNull
     public String getPassword() {
         return password;
     }
@@ -56,17 +62,30 @@ public class User {
         return userRole;
     }
 
-    @OneToOne
-    @JoinColumn(name = "addressId")
-    public Address getAddress() {
+
+    public String getMail() {
+        return mail;
+    }
+
+    @OneToMany(mappedBy = "user")
+    @JsonIgnore
+    public List<Order> getOrders() {
+        return orders;
+    }
+
+    @OneToOne(fetch=FetchType.LAZY, mappedBy = "user")
+    public Address getAddress(){
         return address;
     }
 
-
-
-    public void setAddress(Address address) {
-        this.address = address;
+    public void setOrders(List<Order> orders) {
+        this.orders = orders;
     }
+
+    public void setMail(String mail) {
+        this.mail = mail;
+    }
+
 
     public void setUserId(Integer userId) {
         this.userId = userId;
@@ -87,6 +106,8 @@ public class User {
     public void setUserRole(UserRole userRole) {
         this.userRole = userRole;
     }
+
+    public void setAddress(Address address) { this.address=address;}
 
 }
 

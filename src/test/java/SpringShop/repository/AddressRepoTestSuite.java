@@ -8,8 +8,8 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-
 import java.util.List;
+import java.util.Optional;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -25,8 +25,9 @@ public class AddressRepoTestSuite {
     public void testAddressRepoTesting() {
         //Given
         User user = new User();
-        user.setUsername("TestUsername");
-        user.setPassword("testpassword");
+        user.setMail("sdasdasdasd");
+        user.setUsername("testtews");
+        user.setPassword("passwords");
 
         Address address = new Address();
         address.setCity("Warsaw");
@@ -37,14 +38,14 @@ public class AddressRepoTestSuite {
         userRepo.save(user);
         addressRepo.save(address);
         //When
-        List<Address> adress = addressRepo.findByUser(user);
+        Integer id = addressRepo.findAll().get(0).getAddressId();
+        List<Address> adress = addressRepo.findByAddressId(id);
+        Integer userId = userRepo.findAll().get(0).getUserId();
+
         //Then
         Assert.assertEquals(1, adress.size());
         //CleanUp
-        Integer id = adress.get(0).getAddressId();
-        Integer userId = user.getUserId();
         addressRepo.deleteById(id);
         userRepo.deleteById(userId);
     }
-
 }

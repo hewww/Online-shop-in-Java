@@ -11,5 +11,18 @@ import java.util.List;
 @Transactional
 @Repository
 public interface OrderRepo extends JpaRepository<Order,Integer> {
-    List<Order> findByUser(User user);
+
+    @Override
+    List<Order> findAll();
+
+    @Override
+    Order save(Order order);
+
+
+    void deleteOrderByOrderId(Integer orderId);
+
+    Order findByOrderId(Integer orderId);
+
+
+
 }

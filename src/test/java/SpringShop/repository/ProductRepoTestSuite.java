@@ -29,7 +29,7 @@ public class ProductRepoTestSuite {
         //Given
         Product product = new Product();
         product.setProductName(NAME);
-        product.setProductCategory(ProductsCategory.RTV);
+        product.setProductCategory(CATEGORY);
         product.setProductDescription(DESCRIPTION);
         product.setProductInStock(QUANTITY);
         product.setProductPrice(PRICE);
@@ -40,7 +40,7 @@ public class ProductRepoTestSuite {
         //Then
         Assert.assertEquals(1, productsList.size());
         //CleanUp
-        int id = productsList.get(0).getProductId();
+        int id = product.getProductId();
         productRepo.deleteById(id);
     }
 }

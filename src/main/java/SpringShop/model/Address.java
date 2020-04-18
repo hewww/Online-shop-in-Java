@@ -17,13 +17,12 @@ public class Address {
     public Address() {
     }
 
-    public Address(Integer addressId, String city, String country, String street, String zipcode, User user) {
+    public Address(Integer addressId, String city, String country, String street, String zipcode) {
         this.addressId = addressId;
         this.city = city;
         this.country = country;
         this.street = street;
         this.zipcode = zipcode;
-        this.user = user;
     }
 
     @Id
@@ -54,10 +53,10 @@ public class Address {
     }
 
     @OneToOne
-    @JoinColumn(name = "userId")
     public User getUser() {
         return user;
     }
+
 
     public void setAddressId(Integer addressId) {
         this.addressId = addressId;
@@ -80,6 +79,7 @@ public class Address {
     }
 
     public void setUser(User user) {
-        this.user = user;
+        this.user=user;
     }
+
 }

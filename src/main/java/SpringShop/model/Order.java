@@ -8,9 +8,10 @@ import java.math.BigDecimal;
 @Table(name = "ORDER")
 public class Order {
     private Integer orderId;
-    private Cart cart;
     private User user;
     private Address address;
+    private Product product;
+    private Integer ammount;
     private BigDecimal totalPrice;
     private boolean isPayment;
     private boolean isSend;
@@ -31,13 +32,8 @@ public class Order {
         return orderId;
     }
 
-    @OneToOne
-    @JoinColumn(name = "[cartId]")
-    public Cart getCart() {
-        return cart;
-    }
 
-    @OneToOne
+    @ManyToOne
     @JoinColumn(name = "'userId'")
     public User getUser() {
         return user;
@@ -47,6 +43,16 @@ public class Order {
     @JoinColumn(name = "[addressId]")
     public Address getAddress() {
         return address;
+    }
+
+    @OneToOne
+    public Product getProduct() {
+        return product;
+    }
+
+    @Column(name = "Ammount")
+    public Integer getAmmount() {
+        return ammount;
     }
 
     @Column(name = "totalPrice")
@@ -72,9 +78,6 @@ public class Order {
         this.orderId = orderId;
     }
 
-    public void setCart(Cart cart) {
-        this.cart = cart;
-    }
 
     public void setUser(User user) {
         this.user = user;
@@ -98,6 +101,14 @@ public class Order {
 
     public void setDelivered(boolean delivered) {
         isDelivered = delivered;
+    }
+
+    public void setProduct(Product product) {
+        this.product = product;
+    }
+
+    public void setAmmount(Integer ammount) {
+        this.ammount = ammount;
     }
 }
 

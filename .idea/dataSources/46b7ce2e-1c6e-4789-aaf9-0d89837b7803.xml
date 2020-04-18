@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataSource name="remoteMySQL">
+<dataSource name="karSql">
   <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.15">
     <root id="1">
       <ServerVersion>8.0.13</ServerVersion>
@@ -7,7 +7,7 @@
       <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
       <DefaultCasing>exact</DefaultCasing>
     </root>
-    <schema id="2" parent="1" name="PZGdGF3JAe">
+    <schema id="2" parent="1" name="dQZaZEkotH">
       <Current>1</Current>
       <Visible>1</Visible>
       <Collation>utf8_unicode_ci</Collation>
@@ -1149,7 +1149,7 @@
     </key>
     <foreign-key id="290" parent="274" name="FK1hq0iesrqmdflbm9crjnn0x8c">
       <ColNames>user_id</ColNames>
-      <RefSchemaName>PZGdGF3JAe</RefSchemaName>
+      <RefSchemaName>dQZaZEkotH</RefSchemaName>
       <RefTableName>users</RefTableName>
       <RefColNames>user_id</RefColNames>
     </foreign-key>
@@ -1197,13 +1197,13 @@
     </key>
     <foreign-key id="299" parent="276" name="FKbmujk96k2smkq8veavfncgmrl">
       <ColNames>cart_cart_id</ColNames>
-      <RefSchemaName>PZGdGF3JAe</RefSchemaName>
+      <RefSchemaName>dQZaZEkotH</RefSchemaName>
       <RefTableName>cart</RefTableName>
       <RefColNames>cart_id</RefColNames>
     </foreign-key>
     <foreign-key id="300" parent="276" name="FKiu686etbo5k0tx4dgs2bepicy">
       <ColNames>products_list_product_to_cart_id</ColNames>
-      <RefSchemaName>PZGdGF3JAe</RefSchemaName>
+      <RefSchemaName>dQZaZEkotH</RefSchemaName>
       <RefTableName>products_to_cart</RefTableName>
       <RefColNames>product_to_cart_id</RefColNames>
     </foreign-key>
@@ -1272,19 +1272,19 @@
     </key>
     <foreign-key id="314" parent="278" name="FKjm6o0lh0tgj5m2tshjbaw5moj">
       <ColNames>address_id</ColNames>
-      <RefSchemaName>PZGdGF3JAe</RefSchemaName>
+      <RefSchemaName>dQZaZEkotH</RefSchemaName>
       <RefTableName>address</RefTableName>
       <RefColNames>address_id</RefColNames>
     </foreign-key>
     <foreign-key id="315" parent="278" name="FKquakw7l8bcp9uw0wntnv00btb">
       <ColNames>cart_id</ColNames>
-      <RefSchemaName>PZGdGF3JAe</RefSchemaName>
+      <RefSchemaName>dQZaZEkotH</RefSchemaName>
       <RefTableName>cart</RefTableName>
       <RefColNames>cart_id</RefColNames>
     </foreign-key>
     <foreign-key id="316" parent="278" name="FKimb0qd0aih4l56oe8jtauok3k">
       <ColNames>&apos;user_id&apos;</ColNames>
-      <RefSchemaName>PZGdGF3JAe</RefSchemaName>
+      <RefSchemaName>dQZaZEkotH</RefSchemaName>
       <RefTableName>users</RefTableName>
       <RefColNames>user_id</RefColNames>
     </foreign-key>
@@ -1365,13 +1365,13 @@
     </key>
     <foreign-key id="331" parent="280" name="FK4peci7ef6e3jj9sqbip7a81x7">
       <ColNames>cart_cart_id</ColNames>
-      <RefSchemaName>PZGdGF3JAe</RefSchemaName>
+      <RefSchemaName>dQZaZEkotH</RefSchemaName>
       <RefTableName>cart</RefTableName>
       <RefColNames>cart_id</RefColNames>
     </foreign-key>
     <foreign-key id="332" parent="280" name="FK1ku6hebuc38lhldtvjlergimo">
       <ColNames>product_id</ColNames>
-      <RefSchemaName>PZGdGF3JAe</RefSchemaName>
+      <RefSchemaName>dQZaZEkotH</RefSchemaName>
       <RefTableName>product</RefTableName>
       <RefColNames>product_id</RefColNames>
     </foreign-key>
@@ -1418,7 +1418,7 @@
     </key>
     <foreign-key id="341" parent="281" name="FK8rscncujf6s52o2w5970xr9uc">
       <ColNames>address_id</ColNames>
-      <RefSchemaName>PZGdGF3JAe</RefSchemaName>
+      <RefSchemaName>dQZaZEkotH</RefSchemaName>
       <RefTableName>address</RefTableName>
       <RefColNames>address_id</RefColNames>
     </foreign-key>

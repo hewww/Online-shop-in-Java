@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="remoteMySQL" uuid="46b7ce2e-1c6e-4789-aaf9-0d89837b7803">
+    <data-source name="karSql" uuid="46b7ce2e-1c6e-4789-aaf9-0d89837b7803">
       <database-info product="MySQL" version="8.0.13-4" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.15 (Revision: 79a4336f140499bd22dd07f02b708e163844e3d5)" dbms="MYSQL" exact-version="8.0.13" exact-driver-version="8.0">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
-      <user-name>PZGdGF3JAe</user-name>
+      <user-name>dQZaZEkotH</user-name>
       <introspection-schemas>*:@</introspection-schemas>
+    </data-source>
+    <data-source name="@remotemysql.com" uuid="a1b8f824-c1ee-490c-9429-8644d4662fd5">
+      <database-info product="MySQL" version="8.0.13-4" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.15 (Revision: 79a4336f140499bd22dd07f02b708e163844e3d5)" dbms="MYSQL" exact-version="8.0.13" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>FiW1lKSRi8</user-name>
     </data-source>
   </component>
 </project>

@@ -17,6 +17,7 @@ public class UserRepoTestSuite {
     private UserRepo userRepo;
     private static final String USERNAME = "TestUser";
     private static final String PASSWORD = "testPassword";
+    private static final String MAIL = "mail@test.pl";
 
 
     @Test
@@ -25,6 +26,7 @@ public class UserRepoTestSuite {
         User user = new User();
         user.setUsername(USERNAME);
         user.setPassword(PASSWORD);
+        user.setMail(MAIL);
         userRepo.save(user);
         String testResult = user.getUsername();
         //When
@@ -35,5 +37,4 @@ public class UserRepoTestSuite {
         Integer id = usersList. get(0).getUserId();
         userRepo.deleteById(id);
     }
-
 }

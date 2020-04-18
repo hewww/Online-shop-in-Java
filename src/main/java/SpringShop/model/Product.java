@@ -28,7 +28,6 @@ public class Product {
         this.productDescription = productDescription;
         this.productInStock = productInStock;
         this.productPrice = productPrice;
-
     }
 
 
@@ -65,13 +64,10 @@ public class Product {
         return productInStock;
     }
 
-    @NotNull(message = "Please insert products price")
-    @Min(value = 0)
-    @Column(name = "ammount")
+    @NotNull
     public BigDecimal getProductPrice() {
         return productPrice;
     }
-
 
     public void setProductId(Integer productId) {
         this.productId = productId;
@@ -96,5 +92,4 @@ public class Product {
     public void setProductPrice(BigDecimal productPrice) {
         this.productPrice = productPrice;
     }
-
 }

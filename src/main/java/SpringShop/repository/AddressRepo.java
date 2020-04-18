@@ -8,9 +8,18 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-@Repository
 @Transactional
+@Repository
 public interface AddressRepo extends JpaRepository<Address,Integer> {
-    List<Address> findByUser(User user);
-    List<Address> findByAddressId(Integer addressId);
+
+    @Override
+    List<Address> findAll();
+
+    List<Address> findByAddressId(Integer id);
+
+    @Override
+    Address save(Address address);
+
+
+
 }
