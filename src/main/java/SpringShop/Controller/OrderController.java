@@ -1,14 +1,11 @@
 package SpringShop.Controller;
-
 import SpringShop.Service.DbService;
 import SpringShop.model.Address;
 import SpringShop.model.Order;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
 import javax.persistence.Entity;
 import java.util.List;
-
 import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 
 @CrossOrigin("*")
@@ -19,7 +16,7 @@ public class OrderController {
     @Autowired
     private DbService service;
 
-    @RequestMapping(method = RequestMethod.GET, value = "getAllOrders")
+    @RequestMapping(method = RequestMethod.GET, value = "getOrders")
     public List<Order> getAllOrders() {
         return service.getAllOrders();
     }
@@ -39,14 +36,8 @@ public class OrderController {
         service.deleteOrder(orderId);
     }
 
-
-
-//    @RequestMapping(method = RequestMethod.PUT, value = "updateOrder")
-//    public void updateOrder(@RequestBody Order order) {
-//        service.getO
-//    }
-
-
-
-
+    @RequestMapping(method = RequestMethod.PUT, value = "updateOrder",consumes = APPLICATION_JSON_VALUE)
+    public void updateOrder(@RequestBody Order order) {
+        service.addOrder(order);
+    }
 }

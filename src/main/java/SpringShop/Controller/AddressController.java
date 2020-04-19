@@ -21,13 +21,18 @@ public class AddressController {
         return service.getAllAddress();
     }
 
-//    @RequestMapping(method = RequestMethod.GET, value = "getAddress")
-//    public List<Address> getAddress(@RequestParam Integer userId) {
-//        return service.getAddress(userId);
-//    }
+    @RequestMapping(method = RequestMethod.PUT, value = "getAddress")
+    public void updateAddress(@RequestBody Address address) {
+        service.addAddress(address);
+    }
 
     @RequestMapping(method = RequestMethod.POST, value = "addAddress", consumes = APPLICATION_JSON_VALUE)
     public void addAddress(@RequestBody Address address){
         service.addAddress(address);
+    }
+
+    @RequestMapping(method = RequestMethod.DELETE, value = "deleteAddress")
+    public void deleteAddress(@RequestParam Integer addressId){
+        service.deleteAddress(addressId);
     }
 }

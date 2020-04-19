@@ -21,7 +21,7 @@ public class UserController {
         return service.getUser(userId);
     }
 
-    @RequestMapping(method = RequestMethod.POST, value = "addUser")
+    @RequestMapping(method = RequestMethod.POST, value = "addUser", consumes = APPLICATION_JSON_VALUE)
     public void addUser(@RequestBody User user) {
         service.addUser(user);
     }
@@ -36,8 +36,8 @@ public class UserController {
         service.deleteUser(userId);
     }
 
-//    @RequestMapping(method = RequestMethod.GET, value = "getUser")
-//    public List getUserOrders(@RequestParam Integer userId) {
-//        return service.getUser(userId);
-//    }
+    @RequestMapping(method = RequestMethod.PUT, value = "updateUser", consumes = APPLICATION_JSON_VALUE)
+    public void updateUser(@RequestBody User user) {
+        service.addUser(user);
+    }
 }

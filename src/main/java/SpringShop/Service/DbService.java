@@ -27,15 +27,9 @@ public class DbService {
     @Autowired
     private OrderRepo orderRepo;
 
-//    public List<Order> getUsersOrders(Integer userid) {
-//        return getUsersOrders(userid);
-//    }
-
-
     public List<Address> getAllAddress() {
         return addressRepo.findAll();
     }
-
 
     public void addAddress(final Address address) {
         addressRepo.save(address);
@@ -77,7 +71,7 @@ public class DbService {
 
 
     public List<Order> getAllOrders() { return orderRepo.findAll();}
-    public Order addOrder(Order order) {
+    public Order addOrder(final Order order) {
         return orderRepo.save(order);
     }
 
@@ -85,12 +79,13 @@ public class DbService {
         orderRepo.deleteById(orderId);
     }
 
-//    public void updateOrder(Order order) {
-//        Order newOrder = orderRepo.fi
-//    }
 
-    public Order getOrder(Integer orderId) {
+    public List<Order> getOrder(Integer orderId) {
         return orderRepo.findByOrderId(orderId);
+    }
+
+    public void deleteAddress(final Integer addressId) {
+        addressRepo.deleteById(addressId);
     }
 
 

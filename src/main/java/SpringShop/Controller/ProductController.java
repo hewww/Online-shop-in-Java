@@ -39,4 +39,10 @@ public class ProductController {
     public void deleteProduct(@RequestParam Integer id) {
         service.deleteProduct(id);
     }
+
+    @RequestMapping(method = RequestMethod.POST, value = "updateProduct", consumes = APPLICATION_JSON_VALUE)
+    public void updateProduct(@RequestBody Product product) {
+        service.addProduct(product);
+    }
+
 }

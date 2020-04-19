@@ -23,7 +23,4 @@ public interface ProductRepo extends JpaRepository<Product, Integer> {
 
     List<Product> findByProductId(Integer productId);
 
-    List<Product> findAllByProductCategory(ProductsCategory productsCategory);
-    List<Product> findByProductName(String productTitle);
-    List<Product> findByProductCategory(ProductsCategory productsCategory);
 }

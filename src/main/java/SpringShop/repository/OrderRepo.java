@@ -18,10 +18,11 @@ public interface OrderRepo extends JpaRepository<Order,Integer> {
     @Override
     Order save(Order order);
 
+    List<Order> findByOrderId(Integer orderId);
 
-    void deleteOrderByOrderId(Integer orderId);
+    void deleteById(Integer Id);
 
-    Order findByOrderId(Integer orderId);
+
 
 
 

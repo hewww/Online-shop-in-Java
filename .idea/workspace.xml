@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd6f9357-3449-4539-b476-722f313fad09" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SpringShop/Controller/AddressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringShop/Controller/AddressController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SpringShop/Controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringShop/Controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SpringShop/Controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringShop/Controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SpringShop/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringShop/Controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SpringShop/Service/DbService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringShop/Service/DbService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SpringShop/repository/AddressRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringShop/repository/AddressRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SpringShop/repository/OrderRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringShop/repository/OrderRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SpringShop/repository/ProductRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringShop/repository/ProductRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SpringShop/Controller/ProductControllerTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SpringShop/repository/OrderRepoTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpringShop/repository/OrderRepoTestSuite.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -71,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/repository/OrderRepo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="47" />
+            <state relative-caret-position="374">
+              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/model/Address.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/repository/AddressRepo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="369">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,20 +105,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/repository/ProductRepo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="289">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/repository/AddressRepo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/repository/UserRepo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -116,18 +123,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/Controller/OrderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+            <state relative-caret-position="191">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#618#619#0" expanded="true" />
-                <element signature="e#664#665#0" expanded="true" />
-                <element signature="e#836#837#0" expanded="true" />
-                <element signature="e#875#876#0" expanded="true" />
-                <element signature="e#1035#1036#0" expanded="true" />
-                <element signature="e#1074#1075#0" expanded="true" />
-                <element signature="e#1003#1004#0" expanded="true" />
-                <element signature="e#1026#1027#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,8 +135,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/model/Order.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+            <state relative-caret-position="562">
+              <caret line="108" selection-start-line="108" selection-end-line="108" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,28 +145,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/model/Product.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/Controller/AddressController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="613">
-              <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+            <state relative-caret-position="272">
+              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
               <folding>
-                <element signature="e#1608#1609#0" expanded="true" />
-                <element signature="e#1649#1650#0" expanded="true" />
-                <element signature="e#1860#1861#0" expanded="true" />
-                <element signature="e#1897#1898#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/model/ProductsCategory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-              <folding>
-                <element signature="e#125#126#0" expanded="true" />
-                <element signature="e#168#169#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#781#782#0" expanded="true" />
+                <element signature="e#824#825#0" expanded="true" />
+                <element signature="e#989#990#0" expanded="true" />
+                <element signature="e#1032#1033#0" expanded="true" />
+                <element signature="e#1173#1174#0" expanded="true" />
+                <element signature="e#1221#1222#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -176,8 +165,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/Controller/ProductController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="27" column="104" lean-forward="true" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="104" />
+            <state relative-caret-position="131">
+              <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#705#706#0" expanded="true" />
@@ -193,19 +182,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/Service/DbService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="84" column="38" lean-forward="true" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
+            <state relative-caret-position="505">
+              <caret line="85" column="38" lean-forward="true" selection-start-line="85" selection-start-column="38" selection-end-line="85" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1867#1868#0" expanded="true" />
-                <element signature="e#1898#1899#0" expanded="true" />
-                <element signature="e#1964#1965#0" expanded="true" />
-                <element signature="e#1988#1989#0" expanded="true" />
-                <element signature="e#2154#2155#0" expanded="true" />
-                <element signature="e#2211#2212#0" expanded="true" />
+                <element signature="e#2162#2163#0" expanded="true" />
+                <element signature="e#2217#2218#0" expanded="true" />
+                <element signature="e#2279#2280#0" expanded="true" />
+                <element signature="e#2328#2329#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -264,7 +251,6 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/46b7ce2e-1c6e-4789-aaf9-0d89837b7803/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/SpringShop/repository/CartRepo.java" />
         <option value="$PROJECT_DIR$/src/test/java/SpringShop/repository/ProductRepoTestSuite.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SpringShop/repository/ProductRepo.java" />
         <option value="$PROJECT_DIR$/src/main/java/SpringShop/Controller/ProductToCartController.java" />
         <option value="$PROJECT_DIR$/src/main/java/SpringShop/repository/UserRepo.java" />
         <option value="$PROJECT_DIR$/src/main/java/SpringShop/model/ProductToCart.java" />
@@ -272,10 +258,7 @@
         <option value="$PROJECT_DIR$/src/test/java/SpringShop/repository/ProductToCartRepoTestSuite.java" />
         <option value="$PROJECT_DIR$/src/test/java/SpringShop/Controller/ProductControllerTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/SpringShop/model/ProductsCategory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SpringShop/model/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SpringShop/Controller/ProductController.java" />
         <option value="$PROJECT_DIR$/src/main/java/SpringShop/model/Order.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SpringShop/repository/AddressRepo.java" />
         <option value="$PROJECT_DIR$/src/main/java/SpringShop/Security/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/test/java/SpringShop/repository/UserRepoTestSuite.java" />
         <option value="$PROJECT_DIR$/src/test/java/SpringShop/repository/AddressRepoTestSuite.java" />
@@ -283,12 +266,16 @@
         <option value="$PROJECT_DIR$/src/main/java/SpringShop/model/Address.java" />
         <option value="$PROJECT_DIR$/src/main/java/SpringShop/Service/ShopEngine.java" />
         <option value="$PROJECT_DIR$/src/main/java/SpringShop/model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SpringShop/Controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SpringShop/Controller/AddressController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringShop/Controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringShop/repository/ProductRepo.java" />
         <option value="$PROJECT_DIR$/src/test/java/SpringShop/repository/OrderRepoTestSuite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringShop/model/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringShop/Controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringShop/Controller/OrderController.java" />
         <option value="$PROJECT_DIR$/src/main/java/SpringShop/repository/OrderRepo.java" />
         <option value="$PROJECT_DIR$/src/main/java/SpringShop/Service/DbService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SpringShop/Controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringShop/Controller/AddressController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringShop/repository/AddressRepo.java" />
       </list>
     </option>
   </component>
@@ -305,7 +292,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -435,6 +421,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -486,7 +473,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OnlineShopApplication">
+  <component name="RunManager" selected="JUnit.OrderRepoTestSuite.testOrderRepo">
     <configuration name="AddressRepoTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myFirstShop.test" />
       <extension name="coverage">
@@ -573,8 +560,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OrderRepoTestSuite" />
         <item itemvalue="JUnit.OrderRepoTestSuite.testOrderRepo" />
+        <item itemvalue="JUnit.OrderRepoTestSuite" />
         <item itemvalue="JUnit.AddressRepoTestSuite" />
         <item itemvalue="JUnit.OnlineShopApplicationTests" />
         <item itemvalue="JUnit.OnlineShopApplicationTests.contextLoads" />
@@ -623,26 +610,12 @@
       <workItem from="1586607591372" duration="6328000" />
       <workItem from="1586683275980" duration="3297000" />
       <workItem from="1587202742095" duration="3519000" />
-      <workItem from="1587220053839" duration="9192000" />
+      <workItem from="1587220053839" duration="10462000" />
+      <workItem from="1587300332951" duration="6752000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OrderRepoTestSuite_testOrderRepo - 2020.04.18 at 16h 44m 56s.xml">
-      <configuration name="OrderRepoTestSuite.testOrderRepo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderRepoTestSuite_testOrderRepo - 2020.04.18 at 16h 46m 57s.xml">
-      <configuration name="OrderRepoTestSuite.testOrderRepo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderRepoTestSuite_testOrderRepo - 2020.04.18 at 16h 49m 32s.xml">
-      <configuration name="OrderRepoTestSuite.testOrderRepo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderRepoTestSuite_testOrderRepo - 2020.04.18 at 16h 50m 16s.xml">
-      <configuration name="OrderRepoTestSuite.testOrderRepo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderRepoTestSuite_testOrderRepo - 2020.04.18 at 16h 59m 40s.xml">
-      <configuration name="OrderRepoTestSuite.testOrderRepo" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="OrderRepoTestSuite_testOrderRepo - 2020.04.18 at 17h 01m 50s.xml">
       <configuration name="OrderRepoTestSuite.testOrderRepo" configurationId="JUnit" />
     </history-entry>
@@ -658,9 +631,24 @@
     <history-entry file="OrderRepoTestSuite - 2020.04.18 at 21h 54m 04s.xml">
       <configuration name="OrderRepoTestSuite" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="OrderRepoTestSuite - 2020.04.19 at 17h 47m 32s.xml">
+      <configuration name="OrderRepoTestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderRepoTestSuite_testOrderRepo - 2020.04.19 at 17h 51m 19s.xml">
+      <configuration name="OrderRepoTestSuite.testOrderRepo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderRepoTestSuite - 2020.04.19 at 17h 52m 26s.xml">
+      <configuration name="OrderRepoTestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderRepoTestSuite_testOrderRepo - 2020.04.19 at 17h 56m 29s.xml">
+      <configuration name="OrderRepoTestSuite.testOrderRepo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderRepoTestSuite_testOrderRepo - 2020.04.19 at 17h 56m 45s.xml">
+      <configuration name="OrderRepoTestSuite.testOrderRepo" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="254233000" />
+    <option name="totallyTimeSpent" value="262255000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -673,8 +661,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19349681" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.195629" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -685,14 +674,14 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.32719395" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.32719395" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32827735" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32827735" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32827735" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32827735" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.32394367" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32936078" />
@@ -877,16 +866,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/Controller/ProductToCartController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/model/Cart.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/SpringShop/repository/CartRepoTestSuite.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/SpringShop/Controller/ProductControllerTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#303#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/reports/tests/test/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -901,16 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SpringShop/repository/ProductRepoTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="21" column="73" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -948,23 +917,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SpringShop/repository/UserRepoTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/repository/UserRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="426">
@@ -982,22 +934,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/Controller/AddressController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/Service/ShopEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="170">
+          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/model/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/Controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/model/ProductsCategory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="102">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SpringShop/repository/UserRepoTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1006,39 +974,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SpringShop/repository/OrderRepoTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="79" column="49" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/Service/ShopEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/repository/AddressRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        <state relative-caret-position="369">
+          <caret line="82" column="36" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/repository/ProductRepo.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SpringShop/repository/ProductRepoTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="63">
+          <caret line="21" column="73" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/model/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+          <folding>
+            <element signature="e#1608#1609#0" expanded="true" />
+            <element signature="e#1649#1650#0" expanded="true" />
+            <element signature="e#1860#1861#0" expanded="true" />
+            <element signature="e#1897#1898#0" expanded="true" />
+            <element signature="e#1953#1954#0" expanded="true" />
+            <element signature="e#1988#1989#0" expanded="true" />
+            <element signature="e#2039#2040#0" expanded="true" />
+            <element signature="e#2081#2082#0" expanded="true" />
+            <element signature="e#2135#2136#0" expanded="true" />
+            <element signature="e#2181#2182#0" expanded="true" />
+            <element signature="e#2253#2254#0" expanded="true" />
+            <element signature="e#2307#2308#0" expanded="true" />
+            <element signature="e#2375#2376#0" expanded="true" />
+            <element signature="e#2435#2436#0" expanded="true" />
+            <element signature="e#2496#2497#0" expanded="true" />
+            <element signature="e#2548#2549#0" expanded="true" />
+            <element signature="e#2608#2609#0" expanded="true" />
+            <element signature="e#2656#2657#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/Controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1193#1194#0" expanded="true" />
+            <element signature="e#1235#1236#0" expanded="true" />
+            <element signature="e#1394#1395#0" expanded="true" />
+            <element signature="e#1431#1432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/model/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/Controller/ProductController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="27" column="104" lean-forward="true" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="104" />
+        <state relative-caret-position="131">
+          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#705#706#0" expanded="true" />
@@ -1053,10 +1061,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/repository/ProductRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/Controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SpringShop/Controller/ProductControllerTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/repository/OrderRepo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="47" />
+        <state relative-caret-position="374">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/Controller/AddressController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+            <element signature="e#1032#1033#0" expanded="true" />
+            <element signature="e#1173#1174#0" expanded="true" />
+            <element signature="e#1221#1222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/repository/UserRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/repository/AddressRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1065,78 +1133,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/Service/DbService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="84" column="38" lean-forward="true" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
+        <state relative-caret-position="505">
+          <caret line="85" column="38" lean-forward="true" selection-start-line="85" selection-start-column="38" selection-end-line="85" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1867#1868#0" expanded="true" />
-            <element signature="e#1898#1899#0" expanded="true" />
-            <element signature="e#1964#1965#0" expanded="true" />
-            <element signature="e#1988#1989#0" expanded="true" />
-            <element signature="e#2154#2155#0" expanded="true" />
-            <element signature="e#2211#2212#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/Controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-            <element signature="e#1035#1036#0" expanded="true" />
-            <element signature="e#1074#1075#0" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-            <element signature="e#1026#1027#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/model/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/model/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-          <folding>
-            <element signature="e#1608#1609#0" expanded="true" />
-            <element signature="e#1649#1650#0" expanded="true" />
-            <element signature="e#1860#1861#0" expanded="true" />
-            <element signature="e#1897#1898#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/model/ProductsCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="e#125#126#0" expanded="true" />
-            <element signature="e#168#169#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpringShop/model/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2162#2163#0" expanded="true" />
+            <element signature="e#2217#2218#0" expanded="true" />
+            <element signature="e#2279#2280#0" expanded="true" />
+            <element signature="e#2328#2329#0" expanded="true" />
           </folding>
         </state>
       </provider>
